@@ -1,0 +1,27 @@
+<channel
+   name="practice3_WebAPI"
+   guid="AE581A679E8CF30C03586B69E5AAFE28"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="practice3_WebAPI-FromHTTP-SrsHcV5gzloTLS"
+      commit_id="02892fe934b44bd4e92123d347afbbcbeaee4861"
+      commit_comment="Import Translators: p3"
+      mapper_url_path="iucwebdevGROUPNAME"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

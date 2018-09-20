@@ -1,0 +1,27 @@
+<channel
+   name="practice3_Channel1"
+   guid="7C39155760225F879FDFA3D0B1E21EAA"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="practice3_Channel1-From-4RtBpgIyHwmloG"
+      commit_id="02892fe934b44bd4e92123d347afbbcbeaee4861"
+      commit_comment="Import Translators: p3"
+      poll_time="15000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
