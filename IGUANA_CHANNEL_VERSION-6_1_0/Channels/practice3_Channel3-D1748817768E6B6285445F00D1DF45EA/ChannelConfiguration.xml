@@ -6,7 +6,7 @@
    logging_level="2"
    use_message_filter="true">
    <to_file
-      output_dir="${destDirGROUPNAME}/"
+      output_dir="${destDirpractice3}/"
       write_to_separate_file="true"
       output_single_filename=""
       use_prepended_info_as_filename="false"
@@ -15,9 +15,9 @@
       temp_file_extension="tmp"
       count_of_padding_digit="5"
       ftp_server="ec2-184-72-202-147.compute-1.amazonaws.com"
-      ftp_username="GROUPNAME"
-      ftp_password="4Kp/jDu9n9qKHY6nAxvV/7BLHIBCCvYem9u0ZVMYhTE="
-      ftp_path="${ftpPathGROUPNAME}"
+      ftp_username="practice3"
+      ftp_password="kEvlbKKBMt1wCsoKbAzeH92ZJOtkDR/7i2KdV5SRAyk="
+      ftp_path="${ftpPathpractice3}"
       ftp_max_reconnect="5"
       sftp_authentication_method="user_password"
       use_ftp="true">
@@ -39,7 +39,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="practice3_Channel3-Filter-UTWNNnHNym3No7"
-      translator_commit_id="02892fe934b44bd4e92123d347afbbcbeaee4861"
+      translator_commit_id="3d61468223ce16ef0bed2c888b2d302a84c85ba6"
       translator_commit_comment="Import Translators: p3">
    </message_filter>
 </channel>
